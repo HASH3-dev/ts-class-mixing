@@ -1,6 +1,6 @@
 {
   "name": "ts-class-mixing",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Composable mixin utility for TypeScript with full type inference and runtime detection",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -1,4 +1,4 @@
-# mixin-ts
+# ts-class-mixing
 
 A lightweight TypeScript utility for composing behavior using class-based mixins with full type inference, runtime mixin detection (`isOfType`), and support for inheritance.
 
@@ -12,13 +12,13 @@ A lightweight TypeScript utility for composing behavior using class-based mixins
 ## Installation
 
 ```bash
-npm install mixin-ts
+npm install ts-class-mixing
 ```
 
 ## Example: RPG-style game
 
 ```ts
-import { Mixin } from "mixin-ts";
+import { Mixin } from "ts-class-mixing";
 
 class CanAttack {
   attack() {
