@@ -1,6 +1,6 @@
-# Contributing to Mixin-TS
+# Contributing to ts-class-mixing
 
-Thank you for your interest in contributing to Mixin-TS! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to ts-class-mixing! This document provides guidelines and information for contributors.
 
 ## 🚀 Getting Started
 
@@ -15,8 +15,8 @@ Thank you for your interest in contributing to Mixin-TS! This document provides 
 
 1. **Fork and Clone**
    ```bash
-   git clone https://github.com/your-username/mixin-ts.git
-   cd mixin-ts
+   git clone https://github.com/your-username/ts-class-mixing.git
+   cd ts-class-mixing
    ```
 
 2. **Install Dependencies**
@@ -42,7 +42,7 @@ Thank you for your interest in contributing to Mixin-TS! This document provides 
 ## 📁 Project Structure
 
 ```
-mixin-ts/
+ts-class-mixing/
 ├── src/
 │   ├── Mixin.ts          # Core mixin implementation
 │   └── index.ts          # Main export file
@@ -237,4 +237,4 @@ By contributing, you agree that your contributions will be licensed under the sa
 
 **Happy Contributing! 🎉**
 
-Your contributions help make Mixin-TS better for everyone!
+Your contributions help make  better for everyone!

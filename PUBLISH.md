@@ -1,6 +1,6 @@
 # 📦 Como Publicar o Pacote no NPM
 
-Este guia explica como publicar o pacote `mixin-ts` no NPM.
+Este guia explica como publicar o pacote `ts-class-mixing` no NPM.
 
 ## 🚀 Pré-requisitos
 
@@ -46,7 +46,7 @@ npm whoami
 
 5. **Verificar se o nome está disponível:**
    ```bash
-   npm view mixin-ts
+   npm view ts-class-mixing
    ```
    - Se retornar erro 404, o nome está disponível
    - Se retornar dados, o nome já existe
@@ -110,12 +110,12 @@ Siga o [Semantic Versioning](https://semver.org/):
 
 ## 🔒 Publicação com Escopo (Opcional)
 
-Se quiser publicar com escopo (ex: `@seu-username/mixin-ts`):
+Se quiser publicar com escopo (ex: `@seu-username/ts-class-mixing`):
 
 1. **Alterar nome no package.json:**
    ```json
    {
-     "name": "@seu-username/mixin-ts"
+     "name": "@seu-username/ts-class-mixing"
    }
    ```
 
@@ -164,7 +164,7 @@ jobs:
 
 ### Verificar Publicação
 ```bash
-npm view mixin-ts
+npm view ts-class-mixing
 ```
 
 ### Testar Instalação
@@ -173,20 +173,20 @@ npm view mixin-ts
 mkdir test-install
 cd test-install
 npm init -y
-npm install mixin-ts
+npm install ts-class-mixing
 ```
 
 ### Atualizar README
 Adicione badge de versão:
 ```markdown
-[![npm version](https://badge.fury.io/js/mixin-ts.svg)](https://badge.fury.io/js/mixin-ts)
+[![npm version](https://badge.fury.io/js/ts-class-mixing.svg)](https://badge.fury.io/js/ts-class-mixing)
 ```
 
 ## 🚨 Troubleshooting
 
 ### Erro: "Package name already exists"
 - Mude o nome no `package.json`
-- Ou use escopo: `@seu-username/mixin-ts`
+- Ou use escopo: `@seu-username/ts-class-mixing`
 
 ### Erro: "You must be logged in"
 ```bash
@@ -205,8 +205,8 @@ npm login
 ## 📈 Monitoramento
 
 ### Estatísticas de Download
-- [npmjs.com/package/mixin-ts](https://www.npmjs.com/package/mixin-ts)
-- [npm-stat.com](https://npm-stat.com/charts.html?package=mixin-ts)
+- [npmjs.com/package/ts-class-mixing](https://www.npmjs.com/package/ts-class-mixing)
+- [npm-stat.com](https://npm-stat.com/charts.html?package=ts-class-mixing)
 
 ### Atualizações
 - Configure notificações no NPM
@@ -227,7 +227,7 @@ npm login
 npm publish
 
 # 4. Verificar
-npm view mixin-ts
+npm view ts-class-mixing
 ```
 
 **Parabéns! Seu pacote está no NPM! 🚀**
