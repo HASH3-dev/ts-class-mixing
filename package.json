@@ -1,5 +1,5 @@
 {
-  "name": "mixin-ts",
+  "name": "ts-class-mixing",
   "version": "1.0.0",
   "description": "Composable mixin utility for TypeScript with full type inference and runtime detection",
   "main": "dist/index.js",
@@ -7,7 +7,11 @@
   "scripts": {
     "build": "tsc",
     "test": "npx vitest",
-    "perf": "npx tsx performance/performance-test.ts"
+    "perf": "npx tsx performance/performance-test.ts",
+    "prepublishOnly": "npm run build && npm test",
+    "publish:patch": "npm version patch && npm publish",
+    "publish:minor": "npm version minor && npm publish",
+    "publish:major": "npm version major && npm publish"
   },
   "devDependencies": {
     "@types/node": "^24.2.0",
@@ -22,5 +26,9 @@
     "isOfType"
   ],
   "author": "HASH3",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HASH3-dev/ts-class-mixing"
+  }
 }
