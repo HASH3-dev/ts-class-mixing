@@ -1,0 +1,26 @@
+{
+  "name": "mixin-ts",
+  "version": "1.0.0",
+  "description": "Composable mixin utility for TypeScript with full type inference and runtime detection",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npx vitest",
+    "perf": "npx tsx performance/performance-test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "typescript": "^5.0.0",
+    "vitest": "3.2.4"
+  },
+  "keywords": [
+    "mixin",
+    "typescript",
+    "utility",
+    "class-composition",
+    "isOfType"
+  ],
+  "author": "HASH3",
+  "license": "MIT"
+}
